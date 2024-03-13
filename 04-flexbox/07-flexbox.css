@@ -1,23 +1,127 @@
-.flex-container {
+/* Flex Container 1 */
+.flex-container-1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 150px;
+  width: 350px;
+}
+
+.flex-container-1 .flex-item {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000; /* Border styling */
+  margin: 5px; /* Adjust the margin as needed */
   background-color: rgb(190, 190, 231);
 }
 
-/* Flex Container 1 */
-
 /* Flex Container 2 */
+.flex-container-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  height: 150px;
+  width: 350px;
+}
 
+.flex-container-2 .flex-item {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+  margin: 5px;
+  background-color: rgb(190, 190, 231);
+}
 /* Flex Container 3 */
+.flex-container-3 {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 100px;
+}
 
+.flex-container-3 .flex-item {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+  margin: 5px;
+  background-color: rgb(190, 190, 231);
+}
 /* use height: 400px; on the container */
 
 /* Flex Container 4 */
+.flex-container-4 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  height: 150px;
+  width: 350px;
+}
 
+.flex-container-4 .flex-item {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000; /* Border styling */
+  margin: 5px; /* Adjust the margin as needed */
+  background-color: rgb(190, 190, 231);
+}
 /* Flex Container 5 */
+.flex-container-5 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 200px;
+  width: 350px;
+}
 
+.flex-container-5 .flex-item {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000; /* Border styling */
+  margin: 5px; /* Adjust the margin as needed */
+  background-color: rgb(190, 190, 231);
+}
 /* Flex Container 6 */
 
 .flex-container-6 .flex-item {
   width: 400px;
 }
+.flex-container-6 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: stretch;
+  height: 350px;
+  width: 100px;
+}
 
+.flex-container-6 .flex-item {
+  width: 200px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000; /* Border styling */
+  margin: 5px; /* Adjust the margin as needed */
+  background-color: rgb(190, 190, 231);
+}
 /* use height: 300px; on the container */

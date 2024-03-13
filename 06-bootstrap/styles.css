@@ -1,5 +1,6 @@
 h1 {
   text-align: center;
+  font-weight: bold;
 }
 
 form {
@@ -13,11 +14,81 @@ form > * {
 .row > * {
   height: 160px;
   border: 1px solid var(--white);
-  background-color: var(--purple);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--black);
   font-size: 1.4em;
+  align-items: center;
+  justify-content: center; /* Center content vertically and horizontally */
 }
 
 .box {
   height: 160px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-header,
+.card-body h2,
+.card-body h3 {
+  font-weight: bold; /* Make card headers and featured header bold */
+}
+
+.card-header {
+  background-color: #f8f9fa; /* Light gray background for header */
+}
+
+.gray-rectangle {
+  background-color: #4a5158;
+  height: 100px;
+  width: 100%;
+}
+/* styles.css */
+
+.grid-container {
+  grid-template-columns: repeat(12, 1fr); /* 3 columns in the grid */
+  grid-template-rows: repeat(18, 1fr); /* 3 rows in the grid */
+  display: grid;
+  align-content: start;
+}
+
+.grid-container .grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #f3f2f2; /* Border styling */
+}
+
+.item1 {
+  grid-row: 1/7;
+  grid-column: 1/7;
+}
+.item2 {
+  grid-row: span 6;
+  grid-column: span 6;
+}
+.item3 {
+  grid-row: span 6;
+  grid-column: span 8;
+}
+.item4 {
+  grid-row: span 6;
+  grid-column: span 4;
+}
+.item5 {
+  grid-row: span 6;
+  grid-column: span 4;
+}
+.item6 {
+  grid-row: span 6;
+  grid-column: span 4;
+}
+.item7 {
+  grid-row: span 6;
+  grid-column: span 4;
+}
+
+.modal-title {
+  font-weight: bold;
 }
